@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to top, white, rgb(238, 192, 199));
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;   
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color:rgb(255, 255, 255);
+    font-size: 4rem;
+    padding: 4rem 0 3rem 0;
+}
+
+.loginbox {
+    background-color: white;
+    border: 2px rgb(238, 200, 206) solid;
+    border-radius: 25px;
+    width: 450px;
+    padding: 4rem;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.14);
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+#email, #password {
+    padding: 7px;
+    width: 75%;
+    border-radius: 5px;
+    display: block;
+    margin: 4px auto;
+}
+
+.rememberme {
+    font-size: 14px;
+}
+
+.loginbutton {
+    width: 75%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 8px;  
+}
+
+.registerbutton {
+    background-color: white;
+    width: 100px;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+#email:focus, #password:focus {
+    background-color: #f1f1f1;
+}
+
+.loginbutton:hover {
+    background-color: rgba(0, 0, 0, 0.808);
+}
+
